@@ -1,6 +1,0 @@
-Summary
-Steps to reproduce
-Severity
-Priority
-Attachments
-
