@@ -1,5 +1,5 @@
 
---Yulia_Do
+ --Yulia_Do
 
 --1. ¬ывести все пол€ и все строки.
 
@@ -128,12 +128,12 @@ select name from students where id  between 180 and 190
 
  --26. ¬ывести пользователей где password равен 12333, 1m313, 123313
 
-select name from students where password in ('12333','1m313','123313')
+select name, password from students where password in ('12333','1m313','123313')
 
 
  --27. ¬ывести пользователей где created_on равен 2020-10-03 00:00:00, 2021-05-19 00:00:00, 2021-03-26 00:00:00
 
-select name from students where created_on in('2020-10-03 00:00:00', '2021-05-19 00:00:00', '2021-03-26 00:00:00')
+select name, created_on from students where created_on in('2020-10-03 00:00:00', '2021-05-19 00:00:00', '2021-03-26 00:00:00')
 
 
  --28. ¬ывести минимальный id 
@@ -158,6 +158,4 @@ select id, name, created_on from students order by created_on asc
 
  --32. ¬ывести id пользовател€, им€, дату создани€ пользовател€. ќтсортировать по пор€дку убывани€ даты добавлени€ пользоватлел€.
 
-select id, name, created_on from students order by created_on desc  
-
-
+select id, name, created_on from students order by created_on de
