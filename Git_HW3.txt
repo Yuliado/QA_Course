@@ -1,0 +1,56 @@
+GitHub. HW_2
+link to GitHub: https://github.com/Yuliado/QA_Course.git
+
+1. На локальном репозитории сделать ветки для:
+- Postman == git branch Postman
+- Jmeter == git branch Jmeter
+- CheckLists == git branch CheckLists
+- Bug Reports == git branch Bag_Reports
+- SQL == git branch SQL
+- Charles == git branch Charles
+- Mobile testing == git branch Mobile_testing
+
+2. Запушить все ветки на внешний репозиторий
+ ==  git push -u --all origin
+
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+ == git checkout Bug_Reports
+ == vim bug1.txt - i - 
+Id
+Summary 
+Steps 
+Expected_Result
+EnvironmentB
+Severity
+Priority
+Attachments - esc - :wq
+
+4. Запушить структуру багрепорта на внешний репозиторий
+ == git add bug1.txt == git commit -m "add bag1.txt" == git push
+
+5. Вмержить ветку Bag Reports в Main
+ == git checkout main == git merge Bag_Reports
+ 
+6. Запушить main на внешний репозиторий.
+ == git push -u origin main
+
+7. В ветке CheckLists набросать структуру чек листа.
+ == git checkout Checklists
+ == vim checklist1.txt - i
+Title
+Short description
+Pre-conditions
+Steps to reproduce
+Expected result
+Actual Result
+Pass/Fail
+ 
+8. Запушить структуру на внешний репозиторий
+ == git add checklist1.txt => git commit -m "add checklist1.txt" => git push
+ 
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main 
+== нажать кнопки Pull request => New pull request => выставляем base:main <- compare:Checklists
+=> Merge pull request => Confirm merge
+
+10. Синхронизировать Внешнюю и Локальную ветки Main
+ == git pull
