@@ -89,7 +89,7 @@
 							"// pm.test(\"Status code is 200\", function () {\r",
 							"// pm.expect( pm.response.code).to.eql(200);});\r",
 							"\r",
-							"// 3. Спарсить response body в json. ??(что тут происходит)\r",
+							"// 3. Спарсить response body в json.\r",
 							" \r",
 							"var resp = pm.response.json();\r",
 							"//console.log(pm.response)\r",
