@@ -5,7 +5,7 @@ link to GitHub: https://github.com/Yuliado/QA_Course.git
 - Postman == git branch Postman
 - Jmeter == git branch Jmeter
 - CheckLists == git branch CheckLists
-- Bug Reports == git branch Bag_Reports
+- Bug Reports == git branch Bug_Reports
 - SQL == git branch SQL
 - Charles == git branch Charles
 - Mobile testing == git branch Mobile_testing
@@ -28,7 +28,7 @@ Attachments - esc - :wq
 4. Запушить структуру багрепорта на внешний репозиторий
  == git add bug1.txt == git commit -m "add bag1.txt" == git push
 
-5. Вмержить ветку Bag Reports в Main
+5. Вмержить ветку Bug Reports в Main
  == git checkout main == git merge Bag_Reports
  
 6. Запушить main на внешний репозиторий.
